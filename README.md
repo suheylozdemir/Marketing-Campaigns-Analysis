@@ -52,15 +52,19 @@ To run this project locally, follow these steps:
    git clone https://github.com/suheylozdemir/campaign-performance-analysis.git
 
 2. Navigate to the project directory:
+    ```
     cd campaign-performance-analysis
 
 4. Create a virtual environment:
+   ```
    python3 -m venv venv
 
 5. Activate the virtual environment:
-  source venv/bin/activate
+   ```
+   source venv/bin/activate
 
-6. Install the required dependencies:
+6.Install the required dependencies:
+   ```
    pip install -r requirements.txt
 
 Usage
