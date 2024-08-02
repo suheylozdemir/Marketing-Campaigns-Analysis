@@ -1,72 +1,68 @@
-Campaign Performance Analysis Project
+# Campaign Performance Analysis Project
 
 This project aims to analyze the performance of three different campaigns: Aldebaran, Bartledan, and Cottington. The goal is to determine which campaigns are the most efficient and provide recommendations for future investment strategies based on traffic, revenue, and profitability performance.
 
-Contents
+## Contents
 
-Overview
-Project Structure
-Technologies Used
-Installation
-Usage
-Analysis Results and Recommendations
-Future Improvements
-Contributors
-License
-Overview
+- [Overview](#overview)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Analysis Results and Recommendations](#analysis-results-and-recommendations)
+- [Future Improvements](#future-improvements)
+- [Contributors](#contributors)
+- [License](#license)
+
+## Overview
 
 This project evaluates the performance of three campaigns to identify the most profitable ones and make informed investment decisions. The performance of each campaign is assessed based on traffic, revenue, and profitability. The key findings are:
 
-Aldebaran: The best performing campaign, showing consistent growth in traffic and revenue.
-Bartledan: Although it attracts high traffic, the revenue does not cover the investment, leading to losses.
-Cottington: Despite initial high revenue and gross profit, the increasing costs surpass the revenue, resulting in losses.
-Project Structure
+- **Aldebaran:** The best performing campaign, showing consistent growth in traffic and revenue.
+- **Bartledan:** Although it attracts high traffic, the revenue does not cover the investment, leading to losses.
+- **Cottington:** Despite initial high revenue and gross profit, the increasing costs surpass the revenue, resulting in losses.
+
+## Project Structure
 
 The project consists of the following main files and directories:
 
-data/: Contains the data files.
-notebooks/: Contains Jupyter notebook files.
-scripts/: Contains Python scripts for data analysis and visualization.
-README.md: Provides an overview and instructions for the project.
-Technologies Used
+- `data/`: Contains the data files.
+- `notebooks/`: Contains Jupyter notebook files.
+- `scripts/`: Contains Python scripts for data analysis and visualization.
+- `README.md`: Provides an overview and instructions for the project.
+
+## Technologies Used
 
 The following technologies and libraries are used in this project:
 
-Python 3.x
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Jupyter Notebook
-Installation
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## Installation
 
 To run this project locally, follow these steps:
 
-Clone the repository:
-bash
-Kodu kopyala
-git clone https://github.com/your-username/campaign-performance-analysis.git
-Navigate to the project directory:
-bash
-Kodu kopyala
-cd campaign-performance-analysis
-Create a virtual environment:
-bash
-Kodu kopyala
-python3 -m venv venv
-Activate the virtual environment:
-On Windows:
-bash
-Kodu kopyala
-venv\Scripts\activate
-On macOS/Linux:
-bash
-Kodu kopyala
-source venv/bin/activate
-Install the required dependencies:
-bash
-Kodu kopyala
-pip install -r requirements.txt
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/campaign-performance-analysis.git
+
+2. Navigate to the project directory:
+    cd campaign-performance-analysis
+
+3. Create a virtual environment:
+   python3 -m venv venv
+
+4. Activate the virtual environment:
+  source venv/bin/activate
+
+5. Install the required dependencies:
+   pip install -r requirements.txt
+
 Usage
 
 Run the Jupyter Notebook:
