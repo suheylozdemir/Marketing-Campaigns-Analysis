@@ -49,25 +49,24 @@ To run this project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/campaign-performance-analysis.git
+   git clone https://github.com/suheylozdemir/campaign-performance-analysis.git
 
 2. Navigate to the project directory:
     cd campaign-performance-analysis
 
-3. Create a virtual environment:
+4. Create a virtual environment:
    python3 -m venv venv
 
-4. Activate the virtual environment:
+5. Activate the virtual environment:
   source venv/bin/activate
 
-5. Install the required dependencies:
+6. Install the required dependencies:
    pip install -r requirements.txt
 
 Usage
 
 Run the Jupyter Notebook:
 bash
-Kodu kopyala
 jupyter notebook
 Open the analysis notebook:
 Navigate to the notebooks directory and open the relevant Jupyter notebook to see the analysis and results.
