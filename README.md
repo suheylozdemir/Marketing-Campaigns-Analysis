@@ -63,7 +63,7 @@ To run this project locally, follow these steps:
    ```
    source venv/bin/activate
 
-6.Install the required dependencies:
+6. Install the required dependencies:
    ```
    pip install -r requirements.txt
 
